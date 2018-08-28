@@ -5,7 +5,7 @@ function add(a: number, b: number) {
 let result = add(1, 2);
 console.log(result);
 
-function addVarargs(a, b, c?) { // optional argument, can be assign a value as well (c = 0)
+function addVarargs(a: number, b: number, c?: number) { // optional argument, can be assign a value as well (c = 0)
     return a + b + c;
 }
 

@@ -1,4 +1,4 @@
-class AnotherPerson {
+export class AnotherPerson { // anybody can import this class (keyword 'export')
     firstName: string;
     lastName: string;
 

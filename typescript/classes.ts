@@ -12,5 +12,5 @@ class Person {
     }
 }
 
-let aPerson = new Person('John', 'Doe');
-console.log(aPerson.getFullName());
+let aPerson1 = new Person('John', 'Doe');
+console.log(aPerson1.getFullName());
