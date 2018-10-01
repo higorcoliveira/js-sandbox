@@ -1,0 +1,11 @@
+Need to install globally:
+
+- npm install -g gulpjs/gulp#4.0
+- npm install -g live-server
+
+To run nodemon:
+
+- npm run nodemon build/example_00.js
+
+To run client code (inside public/build):
+- live-server
